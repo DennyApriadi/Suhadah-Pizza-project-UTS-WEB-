@@ -1,0 +1,302 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+
+.header {
+    background-color: #e15b18;
+    padding: 30px;
+    height: 35vh;
+}
+
+#img_logo {
+    width: 150px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #e8ef2d; 
+    font-size: 30px;
+}
+
+.nav-item {
+    border: 1px solid white;
+    margin: 0 10px 0 10px;
+    border-radius: 30px;
+}
+
+.nav-item :hover {
+    background-color: #e8ef2d;
+    border-radius: 30px;
+}
+
+.content {
+    position: relative;
+    bottom: 0;
+    color: black;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content h3 {
+    margin-top: 50px;
+}
+
+.img_food {
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+}
+
+.img_food img {
+    width: 200px;
+}
+
+.img_food .pizza_1 {
+    position: absolute;
+    left: 0;
+    float: left;
+}
+
+.img_food .pizza_2 {
+    position: absolute;
+    right: 50px;
+    left: 50px;
+}
+
+.img_food .pizza_3 {
+    position: absolute;
+    right: 0;
+    float: right;
+}
+
+.line_two {
+    position: relative;
+    top: 480px;
+}
+
+.more_pizza1 {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    float: left;
+    width: 200px;
+}
+ 
+#btn1:checked~.more_pizza1 .btn_more1 {
+    display: block;
+}
+
+.btn_more1 {
+    display: none;
+}
+
+#btn1 {
+    display: none;
+}
+
+.more_pizza2 {
+    position: absolute;
+    right: 30vw;
+    left: 33vw;
+    top: 200px;
+    max-width: 200px;
+}
+
+#btn2:checked~.more_pizza2 .btn_more2 {
+    display: block;
+}
+
+.btn_more2 {
+    display: none;
+}
+
+#btn2 {
+    display: none;
+}
+
+.more_pizza3 {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    float: left;
+    width: 200px;
+}
+
+#btn3:checked~.more_pizza3 .btn_more3 {
+    display: block;
+}
+
+.btn_more3 {
+    display: none;
+}
+
+#btn3 {
+    display: none;
+}
+
+.more_line_two {
+    position: relative;
+    top: 480px;
+}
+
+.more_pizza4 {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    float: left;
+    width: 200px;
+}
+ 
+#btn4:checked~.more_pizza4 .btn_more4 {
+    display: block;
+}
+
+.btn_more4 {
+    display: none;
+}
+
+#btn4 {
+    display: none;
+}
+
+.more_pizza5 {
+    position: relative;
+    top: 200px;
+    max-width: 200px;
+}
+
+#btn5:checked~.more_pizza5 .btn_more5 {
+    display: block;
+}
+
+.btn_more5 {
+    display: none;
+}
+
+#btn5 {
+    display: none;
+}
+
+.more_pizza6 {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    float: left;
+    width: 200px;
+}
+
+#btn6:checked~.more_pizza6 .btn_more6 {
+    display: block;
+}
+
+.btn_more6 {
+    display: none;
+}
+
+#btn6 {
+    display: none;
+}
+
+label {
+    padding: 10px;
+    background-color: #FF6501;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer_link {
+    background-color: #dad8d8;
+    height: 45vh;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 210%;
+}
+
+
+.footer_text{
+    width: 30vw;
+    margin: 10px;
+    position: relative;
+}
+
+.footer_text li {
+    display: flex;
+    position: absolute;
+    left:49vw;
+    bottom: 80px;
+}
+
+.li_kontak {
+    margin-left: 29vw;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.li_kontak_1 {
+    margin: 0 0 -35px 27vw;
+    width: 150px;
+    font-size: 15px;
+}
+
+.li_kategori_1 {
+    margin: 0 30vw -35px 0;
+    width: 150px;
+    font-size: 15px;
+}
+
+.li_kontak_2 {
+    margin: 0 0 -70px 28vw;
+    width: 150px;
+    font-size: 15px;
+}
+
+.li_kategori_2 {
+    margin: 0 30vw -70px -20px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.li_kontak_3 {
+    margin: 0 0 -105px 25vw;
+    width: 150px;
+    font-size: 15px;
+}
+
+.li_kategori_3 {
+    margin: 0 30vw -105px -32px;
+    width: 150px;
+    font-size: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0D698B;
+}
+
+.footer_content {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 250%;
+}

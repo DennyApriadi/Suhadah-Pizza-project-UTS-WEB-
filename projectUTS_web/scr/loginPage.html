@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleLogin.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="card_food">
+        <img src="../img/pizza.png" alt="" width="700px" style="margin: 120px 0 0 100px;">
+    </div>
+
+    <div class="card_login">
+        <img id="img_logo" src="../img/so.png" alt="logo Suhadah Official">
+        <h5 style="color: white;">Suhadah Official</h5>
+        <h1 id="header">Get started</h1>
+        
+        <form action="dashboard.php" method="get" class="was-validated">
+                <div class="form-group col-md-12" style="margin-top: 20px;">
+                    <label for="user" style="float: left;">Username</label><br>
+                    <input class="col-md-12" type="user" id="password" placeholder="Enter Username" name="user" required>
+                </div>
+                <div class="form-group col-md-12" style="margin-top: 20px;">
+                    <label for="password" style="float: left;">Password</label><br>
+                    <input class="col-md-12" type="password" id="password" placeholder="Enter Password" name="password" required>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label" id="checkbox">
+                        <input class="form-check-input" type="checkbox" name="cek" id="cekBox" required><p>Saya Setuju Dengan Ketentuan</p>
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" class="btn col-md-12" id="btn_login">Login</button>
+                </div>
+                <div style="margin-top: 15px;">
+                    <p>Click to<a href="registerPage.html"> Register</a></p>
+                </div>
+
+        </form>
+    </div> 
+</body>
+</html>

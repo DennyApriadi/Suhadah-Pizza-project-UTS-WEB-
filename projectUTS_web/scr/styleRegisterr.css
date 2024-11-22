@@ -1,0 +1,53 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e15b18;
+}
+
+.container {
+    text-align: center;
+}
+
+#header {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#img_logo {
+    width: 100px;
+    margin-top: 2vh;
+}
+
+form {
+    width: 45%;
+    margin: auto;
+    background-color: #dad8d8;
+    border: 3px solid black;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 10px 0 10px;
+}
+
+label {
+    color: black;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 10px;
+    height: 35px;
+}
+
+#btn_register {
+    margin-top: 35px;
+    background-color: #FF6501;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}

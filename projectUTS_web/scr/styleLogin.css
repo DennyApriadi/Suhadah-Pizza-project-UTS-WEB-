@@ -1,0 +1,74 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card_food {
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    background-color: #e15b18;
+    text-align: center;
+}
+
+
+.card_login {
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    background-color: #e15b18;
+    margin-left: 60%;
+    text-align: center;
+}
+
+#img_logo {
+    width: 100px;
+    margin-top: 3vh;
+}
+
+#header {
+    margin-top: 10px;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+form {
+    margin: auto;
+    background-color: #dad8d8;
+    margin-top: 20px;
+    width: 70%;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 50px 50px 50px 50px;
+}
+
+label {
+    color: black;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 10px;
+    height: 35px;
+}
+
+#checkbox {
+    float: left;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 13px;
+}
+
+#btn_login {
+    margin-top: 35px;
+    background-color: #FF6501;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
